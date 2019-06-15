@@ -1,0 +1,95 @@
+#app {
+  height: 100%;
+}
+
+.el-form-item__row {
+  flex-wrap: wrap;
+  margin-left: -20px;
+}
+
+.el-form-item__row-inline {
+  display: flex;
+  margin-left: 20px;
+}
+
+.el-form-item--group {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+}
+
+#nprogress .spinner {
+  display: none;
+}
+
+.custom-scroll-bar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #949ba2;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.el-dialog__footer-center .el-dialog__footer {
+  text-align: center;
+}
+
+.el-button a:link {
+  color: inherit;
+}
+
+.el-button a:visited {
+  color: inherit;
+}
+.form-item_input .el-input {
+  width: 200px;
+}
+.form-item__channel .form-item__account {
+  margin-left: 0;
+}
+.payRestBtn .el-message-box__btns {
+  text-align: center;
+}
+.form-updatepic .el-form-item__content {
+  display: inline-block !important;
+}
+.form-textarea .el-form-item__content {
+  width: 70%;
+}
+.form-textarea .el-form-item {
+  display: block;
+}
+
+.el-dialog__form-item .el-form-item {
+  margin-right: 40px;
+}
+.form-row__channel-wrap .el-form-item {
+  float: left;
+}
+
+.stat-tip {
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fa8f65;
+}
+
+.el-button + a,
+a + .el-button {
+  margin-left: 10px;
+}
+
+.custom-tree-node .el-button + .el-button {
+  margin-left: 0;
+}
+
+.el-checkbox.checkbox {
+  margin-left: 0;
+  margin-right: 35px;
+}
